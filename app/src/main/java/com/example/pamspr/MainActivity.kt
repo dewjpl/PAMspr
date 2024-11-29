@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 fun MyApp(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = lightColorScheme(
-            primary = Color(0xFF6200EE), // Fioletowy
+            primary = Color(0xFF6200EE),
             secondary = Color(0xFF6200EE),
             background = Color.White,
             onBackground = Color.Black,
@@ -135,7 +135,7 @@ fun BottomButton() {
         contentAlignment = Alignment.Center
     ) {
         Button(
-            onClick = { /* Akcja, np. wyświetlenie Toast */ },
+            onClick = { },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.primary)
         ) {
